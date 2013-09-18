@@ -25,6 +25,5 @@
 \\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\bin\DotNetOpenAuth.OpenId.xml
 \\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
 \\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\bin\DotNetOpenAuth.AspNet.xml
-\\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\obj\Debug\WingtipToys.csprojResolveAssemblyReference.cache
 \\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\obj\Debug\WingtipToys.dll
 \\psf\home\documents\visual studio 2012\Projects\WingtipToys\WingtipToys\obj\Debug\WingtipToys.pdb

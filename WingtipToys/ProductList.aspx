@@ -1,4 +1,4 @@
-﻿<<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
+﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true"
     CodeBehind="~/ProductList.aspx.cs" Inherits="WingtipToys.ProductList" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
@@ -34,8 +34,8 @@
                                     <tr>
                                         <td>&nbsp;</td>
                                         <td>
-                                            <a href="ProductDetails.aspx?productID=<%:Item.ProductID %>">
-                                                <img src="/Catalog/Images/Thumbs/<%:Item.ImagePath %>"
+                                            <a href="ProductDetails.aspx?productID=<%#:Item.ProductID %>">
+                                                <img src="/Catalog/Images/Thumbs/<%#:Item.ImagePath %>"
                                                     width="100" height="75" border="1">
                                             </a>
                                         </td>

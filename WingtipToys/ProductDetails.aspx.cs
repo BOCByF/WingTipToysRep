@@ -19,11 +19,16 @@ namespace WingtipToys
         public IQueryable<Product> GetProduct([QueryString("productID")]int? productId)
         {
             var _db = new WingtipToys.Models.ProductContext();
-            IQueryable<Product> query = _db.Products;
+            IQueryable<Product> myQueryable = _db.Products;
             if (productId.HasValue && productId > 0)
             {
-                query = query.Where(p => p.ProductID == productId);
+                myQueryable = myQueryable.Where(p => p.ProductID == productId);
             }
+            else
+            {
+                myQueryable = null;
+            }
+            return myQueryable;
         }
     }
 }

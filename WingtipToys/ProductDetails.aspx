@@ -12,8 +12,11 @@
             <br />
             <table>
                 <tr>
+                    <td >
+                        <span style="width:10px" />
+                    </td>
                     <td>
-                        <img src="/Catelog/Images/<%#:Item.ImagePath %>" border="1" alt="<%#:Item.ProductName %>" height="300" />
+                        <img src="/Catalog/Images/<%#:Item.ImagePath %>" border="1" alt="<%#:Item.ProductName %>" height="300" />
                     </td>
                     <td style="vertical-align:top">
                         <b>Description:</b><br /><%#:Item.Description %>
